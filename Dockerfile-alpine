@@ -1,4 +1,4 @@
-FROM node:11-alpine
+FROM node:current-alpine
 LABEL maintainer="Roy Meissner <meissner@informatik.uni-leipzig.de>"
 
 RUN apk add --no-cache python make build-base git raptor2 && rm -rf /var/cache/apk/*

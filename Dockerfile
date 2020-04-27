@@ -1,4 +1,4 @@
-FROM node:11-slim
+FROM node:current-slim
 LABEL maintainer="Roy Meissner <meissner@informatik.uni-leipzig.de>"
 
 RUN apt update
